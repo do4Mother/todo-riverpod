@@ -20,7 +20,7 @@ class ItemList extends HookWidget {
               return Dismissible(
                 key: ValueKey(item.id),
                 background: Container(
-                  color: Colors.red,
+                  color: Colors.red[900],
                   padding: const EdgeInsets.all(8),
                   alignment: Alignment.centerRight,
                   child: Text(
