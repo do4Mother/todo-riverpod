@@ -24,6 +24,9 @@ class AddItemDialog extends HookWidget {
   Widget build(BuildContext context) {
     final textController = useTextEditingController(text: item.name);
     return Dialog(
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(8),
+      ),
       child: Padding(
         padding: const EdgeInsets.all(20),
         child: Column(
