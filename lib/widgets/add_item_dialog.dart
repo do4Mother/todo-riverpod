@@ -45,7 +45,7 @@ class AddItemDialog extends HookWidget {
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
                   primary: isUpdating
-                      ? Colors.purple
+                      ? Colors.cyan[700]
                       : Theme.of(context).primaryColor,
                 ),
                 onPressed: () {
